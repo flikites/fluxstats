@@ -3846,7 +3846,7 @@
           {
             "name": "POLLING_INTERVAL",
             "description": " Interval for polling Git repository for changes",
-            "placeholder": "Enter your git branch"
+            "placeholder": "Enter your polling interval"
           }
         ],
         "secrets": "",
@@ -3912,7 +3912,7 @@
           {
             "name": "POLLING_INTERVAL",
             "description": " Interval for polling Git repository for changes - ",
-            "placeholder": "Enter your git branch"
+            "placeholder": "Enter your polling interval"
           }
         ],
         "secrets": "",
@@ -3977,7 +3977,7 @@
           {
             "name": "WEBHOOK_SECRET",
             "description": "Secret for validating webhook requests (Github, Gitlab, Bitbucket)",
-            "placeholder": "Enter your git branch"
+            "placeholder": "Enter your git webhook secret"
           }
         ],
         "secrets": "",
