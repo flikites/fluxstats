@@ -3795,5 +3795,196 @@
     ],
     "visible": true,
     "enabled": true
-  }
+  },
+  {
+    "description": "Flux-Orbit (Public Repo) | Automated CI/CD For React, Next.js, Vue, Django, Rails, and any Node.js, Python, or Ruby Applications For Public Git Repositories With Polling",
+    "priceUSD": 5.36,
+    "multiplier": 1,
+    "category": "Hosting",
+    "version": 8,
+    "name": "Flux-Orbit",
+    "instances": 3,
+    "contacts": [],
+    "geolocation": [],
+    "geolocationOptions": [
+      { "text": "North America", "value": "acNA" },
+      { "text": "Europe", "value": "acEU" },
+      { "text": "Asia", "value": "acAS" },
+      { "text": "South America", "value": "acSA" },
+      { "text": "Oceania", "value": "acOC" },
+      { "text": "Africa", "value": "acAF" }
+    ],
+    "staticip": false,
+    "nodes": [],
+    "isAutoEnterprise": true,
+    "compose": [
+      {
+        "name": "Flux-Orbit",
+        "description": "Flux-Orbit is the easiest way to deploy React, Next.js, Vue, Django, Rails, and any Node.js, Python, or Ruby apps on the Flux Network. No Docker expertise required. Enter GitHub repo and hit launch.",
+        "repotag": "runonflux/orbit:latest",
+        "containerPorts": [3000, 9001],
+        "domains": ["", ""],
+        "environmentParameters": ["APP_PORT=3000"],
+        "commands": [],
+        "containerData": "/app",
+        "tiered": false,
+        "cpu": 1,
+        "ram": 2000,
+        "hdd": 10,
+        "ports": [33000, 39001],
+        "userSecrets": [
+          {
+            "name": "GIT_REPO_URL",
+            "description": "Your Git Repo: Github, Gitlab, etc.",
+            "placeholder": "Enter the URL to the git repo"
+          },
+          {
+            "name": "GIT_BRANCH",
+            "description": "You Git Branch: main, dev, etc.",
+            "placeholder": "Enter your git branch"
+          },
+          {
+            "name": "POLLING_INTERVAL",
+            "description": " Interval for polling Git repository for changes",
+            "placeholder": "Enter your git branch"
+          }
+        ],
+        "secrets": "",
+        "repoauth": ""
+      }
+    ],
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "description": "Flux-Orbit (Private Repo) | Automated CI/CD For React, Next.js, Vue, Django, Rails, and any Node.js, Python, or Ruby Applications for PRIVATE Git Repositories With Polling",
+    "priceUSD": 5.36,
+    "multiplier": 1,
+    "category": "Hosting",
+    "version": 8,
+    "name": "Flux-Orbit",
+    "instances": 3,
+    "contacts": [],
+    "geolocation": [],
+    "geolocationOptions": [
+      { "text": "North America", "value": "acNA" },
+      { "text": "Europe", "value": "acEU" },
+      { "text": "Asia", "value": "acAS" },
+      { "text": "South America", "value": "acSA" },
+      { "text": "Oceania", "value": "acOC" },
+      { "text": "Africa", "value": "acAF" }
+    ],
+    "staticip": false,
+    "nodes": [],
+    "isAutoEnterprise": true,
+    "compose": [
+      {
+        "name": "Flux-Orbit",
+        "description": "Flux-Orbit is the easiest way to deploy React, Next.js, Vue, Django, Rails, and any Node.js, Python, or Ruby apps on the Flux Network. No Docker expertise required. Enter GitHub repo and hit launch.",
+        "repotag": "runonflux/orbit:latest",
+        "containerPorts": [3000, 9001],
+        "domains": ["", ""],
+        "environmentParameters": ["APP_PORT=3000"],
+        "commands": [],
+        "containerData": "/app",
+        "tiered": false,
+        "cpu": 1,
+        "ram": 2000,
+        "hdd": 10,
+        "ports": [33000, 39001],
+        "userSecrets": [
+          {
+            "name": "GIT_REPO_URL",
+            "description": "Your Git Repo: Github, Gitlab, etc.",
+            "placeholder": "Enter the URL to the git repo"
+          },
+          {
+            "name": "GIT_BRANCH",
+            "description": "You Git Branch: main, dev, etc.",
+            "placeholder": "Enter your git branch"
+          },
+          
+          {
+            "name": "GIT_TOKEN",
+            "description": "You Git Token is required: For private repositories",
+            "placeholder": "Enter your git token"
+          },
+          {
+            "name": "POLLING_INTERVAL",
+            "description": " Interval for polling Git repository for changes - ",
+            "placeholder": "Enter your git branch"
+          }
+        ],
+        "secrets": "",
+        "repoauth": ""
+      }
+    ],
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "description": "Flux-Orbit (Private Repo) | Automated CI/CD For React, Next.js, Vue, Django, Rails, and any Node.js, Python, or Ruby Applications for PRIVATE Git Repositories With Webhooks",
+    "priceUSD": 5.36,
+    "multiplier": 1,
+    "category": "Hosting",
+    "version": 8,
+    "name": "Flux-Orbit",
+    "instances": 3,
+    "contacts": [],
+    "geolocation": [],
+    "geolocationOptions": [
+      { "text": "North America", "value": "acNA" },
+      { "text": "Europe", "value": "acEU" },
+      { "text": "Asia", "value": "acAS" },
+      { "text": "South America", "value": "acSA" },
+      { "text": "Oceania", "value": "acOC" },
+      { "text": "Africa", "value": "acAF" }
+    ],
+    "staticip": false,
+    "nodes": [],
+    "isAutoEnterprise": true,
+    "compose": [
+      {
+        "name": "Flux-Orbit",
+        "description": "Flux-Orbit is the easiest way to deploy React, Next.js, Vue, Django, Rails, and any Node.js, Python, or Ruby apps on the Flux Network. No Docker expertise required. Enter GitHub repo and hit launch.",
+        "repotag": "runonflux/orbit:latest",
+        "containerPorts": [3000, 9001],
+        "domains": ["", ""],
+        "environmentParameters": ["APP_PORT=3000"],
+        "commands": [],
+        "containerData": "/app",
+        "tiered": false,
+        "cpu": 1,
+        "ram": 2000,
+        "hdd": 10,
+        "ports": [33000, 39001],
+        "userSecrets": [
+          {
+            "name": "GIT_REPO_URL",
+            "description": "Your Git Repo: Github, Gitlab, etc.",
+            "placeholder": "Enter the URL to the git repo"
+          },
+          {
+            "name": "GIT_BRANCH",
+            "description": "You Git Branch: main, dev, etc.",
+            "placeholder": "Enter your git branch"
+          },
+          {
+            "name": "GIT_TOKEN",
+            "description": "You Git Token is required: For private repositories",
+            "placeholder": "Enter your git token"
+          },
+          {
+            "name": "WEBHOOK_SECRET",
+            "description": "Secret for validating webhook requests (Github, Gitlab, Bitbucket)",
+            "placeholder": "Enter your git branch"
+          }
+        ],
+        "secrets": "",
+        "repoauth": ""
+      }
+    ],
+    "visible": true,
+    "enabled": true
+  },
 ]
